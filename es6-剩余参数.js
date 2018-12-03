@@ -1,4 +1,4 @@
-//计算工资
+//计算总工资
 function calc(ename,...salary){
 console.log(`${ename}的总工资为${
     salary.reduce(function(prev,elem){
