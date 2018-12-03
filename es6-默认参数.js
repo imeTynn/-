@@ -1,7 +1,7 @@
- function indexof(arr,ele,starti){
-      if(starti===undefined){
-        starti=0;
-      }
+ function indexof(arr,ele,starti=0){
+      //if(starti===undefined){
+       // starti=0;
+      //}
       for(var i=starti;i<arr.length;i++){
         if(ele==arr[i]){
           return i;
